@@ -1,0 +1,45 @@
+@mixin displayFlex(){    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 385px;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-selection {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.last-menu-section {
+        @include displayFlex();
+}
+
+.how-to-order {
+    padding-bottom: clamp(5rem, 2.5rem + 8vi, 7.5rem);
+    font-size: clamp(1.5rem, -1.1667rem + 10.6667vw, 3.5rem);
+}
+
+.margin-bottom {
+    margin-bottom: 16px;
+        @include displayFlex();
+}
+
+img {
+    height: 128px;
+    width: 128px;
+    margin-bottom: 16px;
+}
+
+@media (min-width: 900px) {
+    .menu-selection {
+        flex-direction: row;
+    }
+}

@@ -1,1 +1,41 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.font-raleway {
+  font-family: 'Raleway';
+}
+
+/* raleway-regular - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./assets/font/raleway-v34-latin-regular.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* raleway-800 - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  src: url('./assets/font/raleway-v34-latin-800.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+h3 {
+  color: #9F0908;
+  font-size: clamp(2rem, -2rem + 16vw, 5rem);
+  margin-bottom: clamp(2.375rem, 0.2083rem + 8.6667vw, 4rem);
+}
+
+.section-padding-top {
+  padding-top: clamp(3rem, -3rem + 24vw, 7.5rem);
+}

@@ -1,0 +1,46 @@
+nav {
+    position: absolute;
+    width: 100%;
+    padding: 32px;
+    display: flex;
+    justify-content: space-between;
+    font-size: clamp(0.875rem, 0.375rem + 2vw, 1.5rem);
+    >img {
+        height: 64px;
+        width: 64px;
+    }
+}
+
+div {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    >a {
+        margin: 8px;
+        color: white;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+.phone-btn {
+    background-color: #9F0908;
+    border: solid 1px white;
+    border-radius: 12px;
+    color: white;
+    >img {
+        height: 24px;
+        padding-right: 4px;
+    }
+}
+
+@media (max-width: 715px) {
+    .navigation {
+        display: none;
+    }
+}

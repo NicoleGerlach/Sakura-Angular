@@ -1,0 +1,67 @@
+.our-menu {
+    background-image: url(./../../../assets/img/1.\ Desktop@3x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    padding-bottom: clamp(5rem, 2.5rem + 8vi, 7.5rem);
+}
+
+h3 {
+    text-align: center;
+}
+
+.ramen img {
+    width: clamp(15.625rem, 9.25rem + 20.4vi, 22rem);
+    height: clamp(15.625rem, 9.25rem + 20.4vi, 22rem);
+    margin-bottom: 20px;
+}
+
+.ramen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ramen-menu {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    text-align: left;
+    font-size: clamp(1.75rem, -9.112rem + 19.31vi, 3.5rem);
+    padding-bottom: 16px;
+}
+
+td {
+    color: #675E54;
+    font-size: clamp(1rem, -1.333rem + 5.333vi, 2rem);
+    padding: 8px;
+    width: 50%;
+}
+
+.price {
+    text-align: right;
+}
+
+.padding-t-b {
+    padding: 56px 0;
+}
+
+@media (min-width: 900px) {
+    .ramen-menu {
+        flex-direction: row;
+        gap: 80px;
+    }
+
+    .reverse {
+        flex-direction: row-reverse;
+    }
+}
