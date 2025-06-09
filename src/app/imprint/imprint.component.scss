@@ -1,0 +1,17 @@
+section {
+    margin: 18px 32px 0;
+}
+
+.headline {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    >img {
+        height: 40px;
+    }
+}

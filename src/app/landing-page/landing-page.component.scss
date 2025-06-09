@@ -4,7 +4,7 @@ section {
     background-image: url('./../../assets/img/Hero.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50% 50%;    
+    background-position: 50% 50%;
     color: white;
     display: flex;
     flex-direction: column;
@@ -14,11 +14,13 @@ section {
 
 h1 {
     font-size: clamp(2.375rem, -0.525rem + 11.6vw, 6rem);
+    text-transform: uppercase;
 }
 
 h2 {
     font-size: clamp(1.25rem, 1.05rem + 0.8vw, 1.5rem);
     font-weight: lighter;
+    text-transform: uppercase;
 }
 
 div {
